@@ -34,7 +34,7 @@ const ProductDetails = () => {
   return(
     <>
     <Container className='position-relative main py-2'>
-    <NavLink to='/products'>
+    <NavLink to='/eweb/'>
     <AiFillLeftCircle size="2rem" className='mb-3' color='black'/>
     </NavLink>
      <Carousel className='mb-4 position-relative'>

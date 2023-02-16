@@ -15,7 +15,7 @@ const Product = ({params,title, pic, desc, price}) => {
          <span className='d-inline-block text-truncate fw-light' style={{maxWidth:'150px', fontSize: '0.8rem'}}>{desc}</span>
         </Card.Text>
         <div className='d-flex justify-content-between align-items-center'>
-        <NavLink to={`/products/${params}`} className='p-2 bg-dark text-white rounded d-flex align-items-center'>
+        <NavLink to={`eweb/products/${params}`} className='p-2 bg-dark text-white rounded d-flex align-items-center'>
         <AiOutlineShopping />
         </NavLink>
         <span className='fw-bold'style={{fontSize: '1rem' }}>{formatThis(price)}</span>

@@ -10,21 +10,21 @@ import ProductDetails from './blocks/ProductDetails'
 import { fetchSingleItem } from './blocks/ProductDetails'
 const router = createBrowserRouter([
   {
-    path: '/',
+    path: '/eweb/',
     element: <HomeLayout />,
     loader: getData,
     children: [{
-      path: '/',
+      path: '/eweb/',
       element: <Products />,
       loader: getData,
     },
     {
-      path: '/products',
+      path: 'eweb/products',
       element: <Products />,
       loader: getData
     },
     {
-      path: '/products/:id',
+      path: 'eweb/products/:id',
       element: <ProductDetails />,
       loader: fetchSingleItem
     }

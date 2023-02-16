@@ -35,7 +35,7 @@ function Header() {
     <Container>
       <Navbar expand="lg">
           <Navbar.Brand>
-          <NavLink to='/' className='fs-5 fw-bold text-dark text-decoration-none'>SHOPER</NavLink>
+          <NavLink to='/eweb/' className='fs-5 fw-bold text-dark text-decoration-none'>SHOPER</NavLink>
           </Navbar.Brand>
           <Button onClick={handleMenu} variant='outline-dark' className='ms-auto py-2 px-3 fs-5 fw-normal d-flex align-items-center gap-2'>
           cart: <span>{dataContext.itemsList.length}</span>
